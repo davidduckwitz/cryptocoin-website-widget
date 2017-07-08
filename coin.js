@@ -5,6 +5,7 @@ MIT License (MIT)
 Copyright (c) 2013 http://coinwidget.com/
 Copyright (c) 2013 http://scotty.cc/
 Copyright (c) 2014 http://www.alvinhkh.com/
+Copyright (c) 2017 http://www.bitcoin-tech.com/
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -31,7 +32,7 @@ var CoinWidgetComCounter = 0;
 
 if (typeof CoinWidgetCom != 'object')
 var CoinWidgetCom = {
-	source: 'http://www.alvinhkh.com/coinwidget/'
+	source: 'http://www.bitcoin-tech.com/coinwidget/'
 	, config: []
 	, go :function(config, element) {
 		config = CoinWidgetCom.validate(config);
