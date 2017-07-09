@@ -32,7 +32,7 @@ var CoinWidgetComCounter = 0;
 
 if (typeof CoinWidgetCom != 'object')
 var CoinWidgetCom = {
-	source: 'http://www.bitcoin-tech.com/coinwidget/'
+	source: 'https://davidduckwitz.github.io/cryptocoin-website-widget/'
 	, config: []
 	, go :function(config, element) {
 		config = CoinWidgetCom.validate(config);
